@@ -11,11 +11,39 @@ void calcAddition() {
 }
 
 // Fill the rest of the functionality here!
-// 2. Subtraction
-// 3. Multiplication
-// 4. Division
-// 5. Exponentiation
 
+// 2. Subtraction
+void calcSubtraction() {    //add_Vardhan()
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a - b;
+    printf("The difference is %d\n", result);
+}
+// 3. Multiplication    //add_Vardhan()
+void calcMultiplication() {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a * b;
+    printf("The product is %d\n", result);
+}
+// 4. Division          //add_Vardhan()
+void calcDivision() {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a/b;
+    printf("The quotient is %d\n", result);
+}
+// 5. Exponentiation    //add_Vardhan()
+void calcExponentiation() {}
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    double result = pow(a, b);
+    printf("The quotient is %.2lf\n", result);
+}
 // 6. Sine
 void calcSine() {
     printf("\nEnter the angle in degrees: ");
