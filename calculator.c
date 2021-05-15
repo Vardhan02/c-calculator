@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stdio.h>
-
+//This program was edited by Vaidehi Sridhar [CB.EN.U4CSE20668]
 // 1. Addition
 void calcAddition() {
     printf("\nEnter two numbers: \n");
